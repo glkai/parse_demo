@@ -1,0 +1,25 @@
+spring:
+  elasticsearch:
+    uris: http://localhost:9200
+    username: gaoliukai
+    password: 325311
+
+elasticsearch:
+  scheme: http
+  address: localhost:9200
+  connectTimeout: 5000
+  socketTimeout: 10000
+  username: gaoliukao
+  password: 325311
+  maxConnectNum: 100
+  maxConnectPerRoute: 100
+  connectionRequestTimeout: 5000
+  indexName: case_parse_temp
+
+controller:
+  url: https://shilv-apigateway.aegis-info.com/api/parsers/DocumentParser
+
+directory:
+  path: C:\\Users\\17566\\Desktop\\徐州市裁判文书爬取
+
+
